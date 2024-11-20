@@ -1,0 +1,42 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+}
+
+header nav div .logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav{
+    background: linear-gradient(to right, rgba(19, 138, 236, 0.966) 50%, rgba(0, 0, 0, 0.685)50%);
+}
+
+#cuenta-carrito{
+    background-color: rgb(151, 9, 4) ;
+    border-radius: 100%;
+    display:inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+}
+
+.logos{
+    width: 40px;
+    height: 50px;
+}
+
+#logo{
+    width: 85px;
+    height: 85px;
+}
+
+.DEROMS{
+    font-size: 22px;
+    color: white;
+    font-family: serif-display;
+    
+}
