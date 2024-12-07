@@ -1,21 +1,26 @@
 header nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0px 0px;
 }
 
-header nav div .logos{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+header nav img{
+    height: 50px;
+    margin: 0px 10px;
 }
 
 nav{
-    background: linear-gradient(to right, rgba(19, 138, 236, 0.966) 50%, rgba(0, 0, 0, 0.685)50%);
+    background: linear-gradient(to right, rgba(19, 138, 236, 0.966) 50%, rgb(0, 0, 0)50%);
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 #cuenta-carrito{
-    background-color: rgb(151, 9, 4) ;
+    background-color: rgb(90, 204, 233) ;
     border-radius: 100%;
     display:inline-block;
     width: 20px;
@@ -24,19 +29,80 @@ nav{
     text-align: center;
 }
 
-.logos{
-    width: 40px;
-    height: 50px;
-}
-
 #logo{
     width: 85px;
     height: 85px;
 }
 
-.DEROMS{
-    font-size: 22px;
+.deroms{
+    font-size: 50px;
     color: white;
     font-family: serif-display;
     
+}
+
+
+.contenedor{
+    width: 100%;
+    height: 99vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formulario{
+    width: 100%;
+    max-width: 470px;
+    height: 410px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #0097B2;
+}
+
+.formulario h1{
+    color: white;
+    position: relative;
+    font-size: 40px;
+}
+
+.input-field{
+    background-color:black ;
+    margin: 30px 0;
+}
+
+.formulario span{
+    color: wheat;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.input-field input {
+    border-radius: 25px;
+    width:460px;
+    height: 30px;
+    border: 2px solid #0097B2;
+    
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#0097B2 ;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 35px;
+    width: 175px;
+    border: 2px solid #020202;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.input-group{
+    height: 250px;
 }
