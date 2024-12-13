@@ -10,10 +10,9 @@
 <body>
     <header>
         <nav>
-            <a href="inicio.html" ><img src="./imagenes/deroms-high-resolution-logo-black-transparent.png" id="logo" alt="logo"></a>
+            <a href="login.html" ><img src="./imagenes/deroms-high-resolution-logo-black-transparent.png" id="logo" alt="logo"></a>
             <div class="deroms">DEROMS IMPORTS</div>
             <div class="logos">
-                <img src="./imagenes/icons8-carrito-de-compras.svg" alt="carrito de compras "><span id="cuenta-carrito">0</span></a>
                 <img src="./imagenes/icons8-usuario-masculino-en-círculo.svg"></a>
             </div>
         </nav>
@@ -21,33 +20,41 @@
     
     <div class="contenedor">
         <div class="formulario">
-            <h1 id="titulo">INICIAR SESIÓN</h1>
+            <h1 id="titulo">REGISTRARSE</h1>
 
             <form>
+                <div class="input-name">
+                    <div class="input-field">
+                        <span>Nombre Completo</span><br>
+                        <input type="text" id="nombre">
+                    </div>
+
                 <div class="input-group">
                     <div class="input-field">
                         <span>Correo Electronico</span><br>
-                        <input type="email">
+                        <input type="email" id="correo">
                     </div>
                     
                     <div class="input-field">
                         <span>Contraseña</span><br>
-                        <input type="password">
+                        <input type="password" id="contraseña">
                     </div>
                 </div>
 
-                <div class="btn-field">
-                    <button id="singIn" type="button">INGRESAR</button><br>
-                    <a href="registro.html"><button id="singUp" type="button">REGISTRARSE</button></a>
-                </div>
             </form>
+            <div class="btn-field">
+                <button id="singUp" type="button" onclick="guardar()">REGISTRARSE</button>
+            </div>
         </div>
-
     </div>
 
-
+    
     <footer>
-        <p>DEROMS IMPORTS</p>
+        <p></p>
     </footer>
 </body>
+<script src="https://www.gstatic.com/firebasejs/11.0.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore-compat.js"></script>
+<script src="index.js"></script>
 </html>
