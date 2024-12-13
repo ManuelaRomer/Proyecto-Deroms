@@ -17,6 +17,9 @@ nav{
 body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 #cuenta-carrito{
@@ -39,6 +42,12 @@ body{
     color: white;
     font-family: serif-display;
     
+}
+
+footer{
+    margin-top: auto;
+    box-shadow: 0 -3px 5px rgb(0, 0, 0, 0.104 );
+    text-align: center;
 }
 
 
