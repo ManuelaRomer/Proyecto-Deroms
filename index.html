@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="cart-icon.png" alt="Carrito" class="cart-icon">
+        <span id="cartCount">0</span>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar productos...">
+        <button id="searchBtn">Buscar</button>
+    </div>
+
+    <div class="container">
+        <h1>Bienvenido a nuestra Tienda</h1>
+        
+        <div class="product">
+            <h2>Producto: Camiseta</h2>
+            <p>Precio: $20</p>
+            <button class="addToCartBtn" data-name="Camiseta" data-price="20">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <h2>Producto: Pantalón</h2>
+            <p>Precio: $30</p>
+            <button class="addToCartBtn" data-name="Pantalón" data-price="30">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <h2>Producto: Zapatos</h2>
+            <p>Precio: $50</p>
+            <button class="addToCartBtn" data-name="Zapatos" data-price="50">Añadir al carrito</button>
+        </div>
+
+        <h2>Carrito</h2>
+        <ul id="cartItems"></ul>
+        <h3 id="totalPrice">Total: $0</h3>
+    </div>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>

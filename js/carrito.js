@@ -22,7 +22,7 @@ function calculateTotal() {
 function updateCartDisplay() {
     const cartItems = document.getElementById('cartItems');
     const totalPrice = document.getElementById('totalPrice');
-    const cuentaCarrito = document.getElementById('cuenta-carrito');
+    const cartCount = document.getElementById('cartCount');
     
     cartItems.innerHTML = ''; // Limpiar el carrito visual
 
@@ -47,7 +47,7 @@ function updateCartDisplay() {
 }
 
 // Asignar eventos a los botones de añadir al carrito
-document.querySelectorAll('.botondetalles').forEach(button => {
+document.querySelectorAll('.addToCartBtn').forEach(button => {
     button.addEventListener('click', () => {
         const product = {
             name: button.getAttribute('data-name'),

@@ -53,72 +53,6 @@ footer{
     text-align: center;
 }
 
-
-.contenedor{
-    width: 100%;
-    height: 99vh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.formulario{
-    width: 100%;
-    max-width: 470px;
-    height: 450px;
-    background-color: rgb(0, 0, 0);
-    padding: 30px 60px 70px;
-    text-align: center;
-    border-radius: 25px;
-    border: 3px solid #0097B2;
-}
-
-.formulario h1{
-    color: white;
-    position: relative;
-    font-size: 40px;
-}
-
-.input-field{
-    background-color:black ;
-    margin: 10px 0;
-}
-
-.formulario span{
-    color: wheat;
-    font-size: 30px;
-    display: block;
-    margin-bottom: 1px;
-}
-
-.input-field input {
-    border-radius: 25px;
-    width:460px;
-    height: 30px;
-    border: 2px solid #0097B2;
-    
-}
-
-.btn-field button{
-    flex-basis: 48%;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:#0097B2 ;
-    color: rgb(255, 255, 255);
-    border-radius: 25px;
-    height: 35px;
-    width: 175px;
-    border: 2px solid #020202;
-    margin: 7px;
-    cursor: pointer;
-}
-
-.input-group{
-    height: 250px;
-}
-
 .barra{
     margin: 20px 550px 5px;
     display: flex;
@@ -144,7 +78,6 @@ footer{
     border: solid;
     border-radius: 25px;
     margin: 40px 80px ;
-    width: 272px;
     align-items: center;
     background-color: #02020228;
 }
@@ -156,7 +89,8 @@ footer{
 }
 
 .product img{
-        width: 240px;
+        width: 388px;
+        height: 400px;
         border-color: #000000;
         border: solid;
         border-radius: 25px;
@@ -172,9 +106,9 @@ footer{
     color: rgb(3, 3, 3);
     border-radius: 25px;
     height: 35px;
-    width: 160px;
+    width: 200px;
     border: 2px solid #020202;
-    margin: 7px 20px 20px 55px;
+    margin: 7px 20px 20px 110px;
     cursor: pointer
 }
 
@@ -183,35 +117,22 @@ footer{
     flex-wrap: wrap;
 }
 
-.perfil{
-    display: flex;
-    
+#pbuho{
+    color: #0097B2;
+    font-size: 40px;
+    font-weight: bold;
 }
-.datosperfil{
-    margin: 20px 10px -70px 55px;
-    text-align: center;
+
+.product1 p{
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
 }
 
-.datosperfil button{
-    font-weight: bold;
-    flex-basis: 48%;
-    font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:#0097B2 ;
-    color: rgb(3, 3, 3);
-    border-radius: 25px;
-    height: 35px;
-    width: 160px;
-    border: 2px solid #020202;
-    cursor: pointer
-}
-
-.foto{
-    border: solid 2px;
-    border-radius:60px;
-    margin: 40px 40px 20px 55px;
+.product1{
+    align-items: center;
+    height: 550px ;
+    margin: 60px 70px 5px 80px;
 }
 
 .remove-btn {
